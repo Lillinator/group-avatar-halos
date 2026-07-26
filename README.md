@@ -14,3 +14,6 @@ There are object settings to allow admins to specify the group or trust level ha
 | **Halo Size** | Size of halo (small, medium or large) |
 | **Halo Transparency** | Halo transparency (0.25 = 25%, 0.5 = 50%, 0.75 = 75%, 1.0 = 100%) |
 
+
+
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/56f4cfff-f48f-4c6d-b347-cfa46f2f70ea" />
