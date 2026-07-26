@@ -1,8 +1,6 @@
 avatar_halos:
   type: objects
   default: []
-  description: 
-    en: "Configure halo colours for different groups"
   schema:
     name: avatar_halo_rule
     identifier: groups
@@ -14,7 +12,6 @@ avatar_halos:
       halo_color:
         type: string
         required: true
-        description: "Hex code (e.g., #FF0000), color name (e.g. red), or Discourse variable (e.g., var(--love))"
         validations:
           min_length: 3
       halo_size:
