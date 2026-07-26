@@ -1,0 +1,20 @@
+en:
+  theme_metadata:
+    description: "Adds custom colored avatar halos to posts based on user groups or trust levels."
+    settings:
+      avatar_halos: 
+        description: "Configure halo colours for different groups"
+        schema:
+          properties:
+            groups:
+              label: "Groups"
+              description: "The groups or trust levels that will receive this halo"
+            halo_color:
+              label: "Halo color"
+              description: "Hex code (e.g., #FF0000), color name (e.g. red), or Discourse variable (e.g., var(--love))"
+            halo_size:
+              label: "Halo size"
+              description: "The thickness of the halo glow"
+            halo_transparency:
+              label: "Halo transparency"
+              description: "Opacity of the halo (0.25 = 25%, 1.0 = solid 100%)"
