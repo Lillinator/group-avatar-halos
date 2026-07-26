@@ -21,6 +21,12 @@ For group hierarchy of halos: `Moderator > Admin > Primary Groups > Trust Level`
 
 In the following screenshot, users HelloKitty, Catra and Lilly are all members of primary group `Pink`, but Lilly and Catra have admin and moderator halos respectively, which override the primary group. Also, HelloKitty and MsMarvel are both Trust Level 2, but HelloKitty's primary group halo overrides the Trust Level halo. 
 
+<div align="center">
+#### Topic View:
+  
 <img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/5cccd6e0-9a52-44ec-95d6-650b5dd8eeca" />
 
+### User Card:
+
 <img width="70%" height="70%" alt="image" src="https://github.com/user-attachments/assets/1667a428-b33f-457a-aa0e-35ab38a9d781" />
+</div>
