@@ -1,0 +1,32 @@
+avatar_halos:
+  type: objects
+  default: []
+  description: 
+    en: "Configure halo colours for different groups"
+  schema:
+    name: avatar_halo_rule
+    identifier: groups
+    properties:
+      groups:
+        type: groups
+        disallowed_groups: "0|4|5"
+        required: true
+      halo_color:
+        type: string
+        required: true
+        description: "Hex code (e.g., #FF0000), color name (e.g. red), or Discourse variable (e.g., var(--love))"
+        validations:
+          min_length: 3
+      halo_size:
+        type: enum
+        choices:
+          - small
+          - medium
+          - large         
+      halo_transparency:
+        type: enum
+        choices:
+          - "0.25"
+          - "0.5"
+          - "0.75"
+          - "1.0"
