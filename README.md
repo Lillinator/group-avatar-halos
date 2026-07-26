@@ -9,7 +9,7 @@ There are object settings to allow admins to specify the group or trust level ha
 
 | Property | Description |
 |----------|-------------|
-| **Halo Group** | Primary group or Trust Level to show the user avatar halo |
+| **Group** | Primary group or Trust Level to show the user avatar halo |
 | **Halo Color** | Color of the topic author halo, can use Discourse color vars (best for dark/light mode compatibility, e.g.: `var(--tertiary)`), hex color codes, or html color names |
 | **Halo Size** | Size of halo (small, medium or large) |
 | **Halo Transparency** | Halo transparency (0.25 = 25%, 0.5 = 50%, 0.75 = 75%, 1.0 = 100%) |
