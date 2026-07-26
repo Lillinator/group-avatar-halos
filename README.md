@@ -14,6 +14,13 @@ There are object settings to allow admins to specify the group or trust level ha
 | **Halo Size** | Size of halo (small, medium or large) |
 | **Halo Transparency** | Halo transparency (0.25 = 25%, 0.5 = 50%, 0.75 = 75%, 1.0 = 100%) |
 
+For group hierarchy of halos: `Moderator > Admin > Primary Groups > Trust Level`.  Thus if a user is an admin, moderator, and member of primary group and trust level and all those groups have halos set, the moderator halo will be the one that displays.
 
 
-<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/56f4cfff-f48f-4c6d-b347-cfa46f2f70ea" />
+### :camera_flash: Screenshot:
+
+In the following screenshot, users HelloKitty, Catra and Lilly are all members of primary group `Pink`, but Lilly and Catra have admin and moderator halos respectively, which override the primary group. Also, HelloKitty and MsMarvel are both Trust Level 2, but HelloKitty's primary group halo overrides the Trust Level halo. 
+
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/5cccd6e0-9a52-44ec-95d6-650b5dd8eeca" />
+
+<img width="90%" height="90%" alt="image" src="https://github.com/user-attachments/assets/1667a428-b33f-457a-aa0e-35ab38a9d781" />
