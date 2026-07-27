@@ -7,7 +7,7 @@ avatar_halos:
     properties:
       groups:
         type: groups
-        disallowed_groups: "0|4|5" # disallow groups everyone, anon users, logged-in users 
+        disallowed_groups: "0|4|5" # disallow groups `everyone`, `anonymous users`, `logged-in users` 
         required: true
       halo_color:
         type: string
